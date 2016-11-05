@@ -15364,4 +15364,66 @@ which does not exist, yet. -->
 	<property name="Group" value="Resources" />
 	<property name="CraftingIngredientTime" value="0.5" />
 </item>
+<item id="3047" name="fireGloves">
+	<property name="Extends" value="hazmatBoots" />
+	<property name="DescriptionKey" value="fireClothesGroupDesc"/>
+	<property class="Attributes">
+		<property name="ConcussiveProtection" value="0.04,0.1" />
+		<property name="PunctureProtection" value="0.05,0.2" />
+		<property name="FireProtection" value="0.32,0.8" />
+		<property name="RadiationProtection" value="0.04,0.1" />
+	</property>
+	<property class="UMA">
+			<property name="Overlay0Tint" value="255, 255, 0" />
+	</property>
+</item>
+<item id="3048" name="firePants">
+	<property name="Extends" value="hazmatPants" />
+	<property name="DescriptionKey" value="fireClothesGroupDesc"/>
+	<property class="Attributes">
+		<property name="ConcussiveProtection" value="0.04,0.1" />
+		<property name="PunctureProtection" value="0.05,0.2" />
+		<property name="FireProtection" value="0.32,0.8" />
+		<property name="RadiationProtection" value="0.04,0.1" />
+	</property>
+	<property class="UMA">
+			<property name="Overlay0Tint" value="0, 0, 0" />
+	</property>
+</item>
+<item id="3049" name="fireShirt">
+	<property name="Extends" value="hazmatShirt" />
+	<property name="DescriptionKey" value="fireClothesGroupDesc"/>
+	<property class="Attributes">
+		<property name="ConcussiveProtection" value="0.04,0.1" />
+		<property name="PunctureProtection" value="0.05,0.2" />
+		<property name="FireProtection" value="0.32,0.8" />
+		<property name="RadiationProtection" value="0.04,0.1" />
+	</property>
+	<property class="UMA">
+			<property name="Overlay0Tint" value="0, 0, 0" />
+	</property>
+</item>
+<item id="3050" name="fireBoots">
+	<property name="Extends" value="hazmatBoots" />
+	<property name="DescriptionKey" value="fireClothesGroupDesc"/>
+	<property class="Attributes">
+		<property name="ConcussiveProtection" value="0.04,0.1" />
+		<property name="PunctureProtection" value="0.05,0.2" />
+		<property name="FireProtection" value="0.32,0.8" />
+		<property name="RadiationProtection" value="0.04,0.1" />
+	</property>
+	<property class="UMA">
+			<property name="Overlay0Tint" value="0, 0, 0" />
+	</property>
+</item>
+<item id="3051" name="firemanSchematic">
+	<property name="Extends" value="schematicMaster" />
+	<property name="CustomIcon" value="schematicMaster" />
+	<property class="Action1">
+		<property name="Recipes_to_learn" value="firePants,fireShirt,fireBoots,fireGloves" />
+	</property>
+</item>
+<item id="3052" name="fireFabric">
+	<property name="Extends" value="militaryFiber" />
+</item>
 </items>

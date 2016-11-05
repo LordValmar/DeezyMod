@@ -3024,6 +3024,26 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedIron" count="5"/>
 </recipe>
 
+<recipe name="fireGloves" count="1">
+	<ingredient name="animalHide" count="3"/>
+	<ingredient name="fireFabric" count="1"/>
+</recipe>
+
+<recipe name="firePants" count="1">
+	<ingredient name="animalHide" count="4"/>
+	<ingredient name="fireFabric" count="2"/>
+</recipe>
+
+<recipe name="fireShirt" count="1">
+	<ingredient name="animalHide" count="5"/>
+	<ingredient name="fireFabric" count="2"/>
+</recipe>
+
+<recipe name="fireBoots" count="1">
+	<ingredient name="animalHide" count="3"/>
+	<ingredient name="fireFabric" count="1"/>
+</recipe>
+
 <recipe name="firemanAxe" count="1">
 	<ingredient name="fireaxeSteel" count="1"/>
 	<ingredient name="scrapPlastics" count="10"/>
