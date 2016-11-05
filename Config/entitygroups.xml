@@ -416,6 +416,11 @@
 		<entity name="sc_General" />		
     </entitygroup>	
 	
+	
+    <entitygroup name="GraveYard">
+		<entity name="ZombieJason" prob="0.1"/>
+    </entitygroup>
+	
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  start: auto generated horde groups  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<entitygroup name="hordeStageGS1">
 		<entity name="zombieBoe"/>

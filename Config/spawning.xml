@@ -1228,6 +1228,19 @@
 			<property name="TotalPerWave"       value="60" />
 		</day>
 	</entityspawner>
+	
+<entityspawner name="GraveyardSpawn">
+	<day value="*">
+		<property name="ResetToday"        value="false" />
+        <property name="EntityGroupName"    value="GraveYard" />
+        <property name="Time"               value="Any" />
+        <property name="DelayBetweenSpawns" value="0" />        <!-- in full seconds -->
+        <property name="TotalAlive"         value="1" />
+        <property name="TotalPerWave"       value="1" />
+        <property name="DaysToRespawnIfPlayerLeft" value="5" /> <!-- in game days -->
+        <property name="AttackPlayerAtOnce" value="false" />
+      </day>
+</entityspawner>
 		
 		
 </spawning>

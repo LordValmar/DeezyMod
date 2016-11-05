@@ -11422,6 +11422,17 @@ which does not exist, yet. -->
 	<property name="IsDeveloper" value="true" />
 <property name="Meshfile" value="ParticleEffects/p_onFire" />
 </item> 
+
+<item id="1908" name="macheteJason">
+	<property name="Extends" value="machete" />
+	<property name="IsDeveloper" value="true" />
+	<property name="Candrop" value="false" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="30,30" />
+		<property name="BlockDamage" value="20,20" />
+		<property name="DegradationRate" value="0,0" />
+	</property>
+</item>
 	
 	<!-- Health Items -->
 	<item id="1920" name="Peroxide">
@@ -15270,6 +15281,8 @@ which does not exist, yet. -->
 </item>
 <item id="3038" name="drunkFood">
 	<property name="Extends" value="cornBread" />
+	<property name="CustomIcon" value="Hamburger" />
+	<property name="CustomIconTint" value="335C41" />
 	<property class="Action1">
 		<property name="Gain_food" value="20" />
 		<property name="Gain_wellness" value="1" />
