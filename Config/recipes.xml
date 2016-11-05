@@ -2947,6 +2947,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     </recipe>
 
 		<!-- Misc Recipes Mod -->
+<recipe name="rawMeat" count="1" >
+  <ingredient name="cleansedMeat" count="1" />
+</recipe>
+<recipe name="cleansedMeat" count="1" >
+  <ingredient name="rottingFlesh" count="2" />
+</recipe>
 <recipe name="BallPinHammer" count="1" craft_area="workbench">
 	<ingredient name="forgedSteel" count="5"/>
 	<ingredient name="clawHammer" count="1"/>

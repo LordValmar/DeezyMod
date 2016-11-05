@@ -1130,6 +1130,10 @@ repeatable="true" category_key="challenge" difficulty="easy">
 	<reward type="Recipe" id="doctorOrdered" />
 	<reward type="SkillPoints" value="1" />
 </quest>
+<quest id="challenge_surgeon2" name="Cleansed Meat" subtitle="Cleansed Meat" description="A surgeon is able to cleansed rotten meat. This cleansed meat can then be used as raw meat." icon="ui_game_symbol_zombie" 
+	repeatable="true" category_key="challenge"  difficulty="medium">
+	<objective type="Craft" id="cleansedMeat" value="1" />
+</quest>
 <quest id="challenge_biker" name="Titty Twisters" subtitle="Titty Twisters" description="Find the dancers that gave you the itch and make them payake them pay..." icon="ui_game_symbol_zombie" 
 	repeatable="true" category_key="challenge" offer="Find the dancers that gave you the itch and make them payake them pay..." difficulty="medium">
 	<objective type="ZombieKill" id="ZombieStripper" value="10" />
@@ -1220,6 +1224,7 @@ repeatable="false" category_key="challenge" offer="You were a surgeon before the
 	<reward type="Skill" id="Tailoring" value="10" />
 	
 	<reward type="Recipe" id="surgeonsKit" />
+	<reward type="Quest" id="challenge_surgeon2" />
 </quest>
 <quest id="perkBiker" name="Biker Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="You were a biker before the outbreak." difficulty="easy">

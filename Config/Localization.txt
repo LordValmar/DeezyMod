@@ -5506,6 +5506,7 @@ fireBoots,items,Item,,Fireman Boots,,
 fireClothesGroupDesc,items,Clothes,KgNone,Fireman clothes are very heat-resistant.,,
 fireFabric,items,Item,,FRF Fabric,,
 fireFabricDesc,items,Item,,"This special fabric is highly resistant to fire.",,
+cleansedMeat,items,Item,,Cleansed Meat,,
 
 classMachinistLocked,items,Item,,Class - Machinist (Locked),,
 classMachinistLockedDesc,items,Item,,"Place this on the ground and unlock it with the class key.",,
